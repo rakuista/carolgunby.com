@@ -21,9 +21,10 @@
 }
 
 .header__logo {
-	display: block;
+	display: inline-block;
 	width: $logo-width;
 	max-width: 80%;
+	margin-right: 15px;
 
 	@include mq(tabletp) {
 		max-width: 50%;
@@ -42,6 +43,8 @@
 	letter-spacing: $sitetitle-spacing;
 	line-height: 1;
 	color: $text-dark-color;
+	position: absolute;
+	top: 35%;
 
 	&:hover {
 		color: $accent-color;
