@@ -43,7 +43,7 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&family=Source+Serif+Pro:ital@0;1&display=swap" rel="stylesheet">'
+  font_embed: '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">'
   title_font: '"Rubik", sans-serif'
   body_font: '"Source Serif Pro", sans-serif'
   regular_weight: 400

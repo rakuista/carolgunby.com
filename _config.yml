@@ -9,7 +9,7 @@ collections:
     permalink: /:name
   samples:
     output: true
-    permalink: /samples/:slug
+    permalink: /samples/:slug:output_ext
 
 defaults:
   -
@@ -28,7 +28,7 @@ defaults:
       path: ""
       type: "samples"
     values:
-      layout: "project"
+      layout: "sample"
 
 markdown: kramdown
 

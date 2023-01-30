@@ -22,18 +22,18 @@ featured_image: /images/coast.jpg
 
 	<div class="wrap">
 
-		{% for project in site.projects reversed %}
+		{% for sample in site.samples reversed %}
 
 		<article class="post">
 
 			<div class="post__image-wrap">
-				<div class="post__image" style="background-image: url({{ project.featured_image | relative_url }})"></div>
+				<div class="post__image" style="background-image: url({{ sample.featured_image | relative_url }})"></div>
 			</div>
 
 			<div class="post__content-wrap">
 				<div class="post__content">
-					<h2 class="post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-					<p class="post__description">{{ project.description }}</p>
+					<h2 class="post__title"><a href="{{ sample.url | relative_url }}">{{ sample.title }}</a></h2>
+					<p class="post__description">{{ sample.description }}</p>
 				</div>
 			</div>
 
