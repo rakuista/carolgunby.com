@@ -3,6 +3,9 @@
 <html class="no-js" lang="en">
 
 <head>
+  	{% if jekyll.environment == 'production' %}
+	{% include analytics.html %}
+  	{% endif %}
 
 
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -46,9 +49,6 @@
 	<!-- Extra Header JS Code -->
 	{{ site.data.settings.advanced_settings.header_js }}
 	{% endif %}
-  	{% if jekyll.environment == 'production' %}
-	{% include analytics.html %}
-  	{% endif %}
 </head>
 
 
