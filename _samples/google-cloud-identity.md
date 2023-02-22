@@ -13,7 +13,5 @@ I wrote the following overviews and developer guides for this product:
 +	[User Invitation API overview](https://cloud.google.com/identity/docs/concepts/overview-user-invitations)
 +	[Querying group memberships](https://cloud.google.com/identity/docs/how-to/query-memberships)
 +	[Managing membership expirations](https://cloud.google.com/identity/docs/how-to/manage-expirations)
-+	[Formulating and testing a membership query](https://cloud.google.com/identity/docs/how-to/test-query-dynamic-groups)
-+	[Creating and updating a dynamic group](https://cloud.google.com/identity/docs/how-to/create-dynamic-groups)
 
 The Cloud Identity [setup guide](https://cloud.google.com/identity/docs/set-up-cloud-identity-admin) and [domain verification guides](https://cloud.google.com/identity/docs/verify-domain) are assembled by a Python script that scrapes the content from the corresponding articles in the Cloud Identity admin help center. The script was broken when I inherited the product, and I fixed and documented it so that the documenation sites could be kept in sync easily and without duplication.
