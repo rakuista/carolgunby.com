@@ -3,11 +3,6 @@
 <html class="no-js" lang="en">
 
 <head>
-  	{% if jekyll.environment == 'production' %}
-	{% include analytics.html %}
-  	{% endif %}
-
-
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 	{{ site.data.settings.basic_settings.site_title }}
@@ -48,6 +43,11 @@
 	{% if site.data.settings.advanced_settings.header_js %}
 	<!-- Extra Header JS Code -->
 	{{ site.data.settings.advanced_settings.header_js }}
+	{% endif %}
+
+	<!-- Analytics Code -->
+	{% if site.google_analytics and jekyll.environment == 'production' %}
+	{% include analytics.html %}
 	{% endif %}
 </head>
 

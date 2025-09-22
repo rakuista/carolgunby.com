@@ -41,3 +41,5 @@ sass:
 
 plugins:
   - jekyll-sitemap
+
+google_analytics: G-FPG0952SCP
